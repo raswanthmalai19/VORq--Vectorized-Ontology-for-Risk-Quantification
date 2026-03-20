@@ -1,0 +1,13 @@
+{
+  "gdp_growth": 0.7,
+  "cpi_yoy": 2.66,
+  "unemployment": 4.4,
+  "fed_funds_rate": 3.64,
+  "m2_money_supply": 22442.1,
+  "vix": 22.37,
+  "crude_oil_wti": 93.39,
+  "yield_spread": 0.5,
+  "regime": "contraction",
+  "regime_confidence": 0.573,
+  "timestamp": "2026-03-19T17:51:12.375609"
+}

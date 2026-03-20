@@ -1,0 +1,25 @@
+{
+  "description": "Trade dependency edges: country -> country with weight (0-1) and primary commodities traded",
+  "edges": [
+    {"from": "US", "to": "CN", "weight": 0.85, "commodities": ["technology", "rare_earth", "manufacturing"], "trade_vol_bn": 690},
+    {"from": "CN", "to": "US", "weight": 0.80, "commodities": ["technology", "agriculture", "energy"], "trade_vol_bn": 690},
+    {"from": "US", "to": "JP", "weight": 0.55, "commodities": ["automotive", "technology", "agriculture"], "trade_vol_bn": 218},
+    {"from": "JP", "to": "US", "weight": 0.60, "commodities": ["automotive", "technology", "manufacturing"], "trade_vol_bn": 218},
+    {"from": "US", "to": "DE", "weight": 0.50, "commodities": ["automotive", "healthcare", "technology"], "trade_vol_bn": 252},
+    {"from": "DE", "to": "US", "weight": 0.55, "commodities": ["automotive", "manufacturing", "chemicals"], "trade_vol_bn": 252},
+    {"from": "US", "to": "IN", "weight": 0.40, "commodities": ["technology", "healthcare", "energy"], "trade_vol_bn": 128},
+    {"from": "IN", "to": "US", "weight": 0.45, "commodities": ["technology", "pharmaceuticals", "textiles"], "trade_vol_bn": 128},
+    {"from": "CN", "to": "JP", "weight": 0.60, "commodities": ["manufacturing", "technology", "mining"], "trade_vol_bn": 318},
+    {"from": "JP", "to": "CN", "weight": 0.65, "commodities": ["automotive", "technology", "chemicals"], "trade_vol_bn": 318},
+    {"from": "CN", "to": "DE", "weight": 0.55, "commodities": ["manufacturing", "technology", "mining"], "trade_vol_bn": 230},
+    {"from": "DE", "to": "CN", "weight": 0.60, "commodities": ["automotive", "manufacturing", "chemicals"], "trade_vol_bn": 230},
+    {"from": "CN", "to": "IN", "weight": 0.50, "commodities": ["manufacturing", "technology", "chemicals"], "trade_vol_bn": 125},
+    {"from": "IN", "to": "CN", "weight": 0.35, "commodities": ["mining", "agriculture", "pharmaceuticals"], "trade_vol_bn": 125},
+    {"from": "DE", "to": "JP", "weight": 0.35, "commodities": ["automotive", "manufacturing", "chemicals"], "trade_vol_bn": 45},
+    {"from": "JP", "to": "DE", "weight": 0.30, "commodities": ["automotive", "technology", "robotics"], "trade_vol_bn": 45},
+    {"from": "IN", "to": "DE", "weight": 0.25, "commodities": ["technology", "pharmaceuticals", "textiles"], "trade_vol_bn": 28},
+    {"from": "DE", "to": "IN", "weight": 0.20, "commodities": ["automotive", "manufacturing", "chemicals"], "trade_vol_bn": 28},
+    {"from": "IN", "to": "JP", "weight": 0.25, "commodities": ["technology", "pharmaceuticals", "mining"], "trade_vol_bn": 20},
+    {"from": "JP", "to": "IN", "weight": 0.20, "commodities": ["automotive", "technology", "manufacturing"], "trade_vol_bn": 20}
+  ]
+}

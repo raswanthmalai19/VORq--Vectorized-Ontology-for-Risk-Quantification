@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "description": "VORQ Seed Knowledge Base — Countries, Industries, Commodities, Companies, Tickers",
+  "countries": [
+    {
+      "id": "US",
+      "name": "United States",
+      "region": "North America",
+      "gdp_rank": 1,
+      "key_industries": ["technology", "finance", "healthcare", "energy", "defense"],
+      "key_trade_partners": ["CN", "MX", "CA", "JP", "DE"]
+    },
+    {
+      "id": "CN",
+      "name": "China",
+      "region": "East Asia",
+      "gdp_rank": 2,
+      "key_industries": ["manufacturing", "technology", "mining", "agriculture", "construction"],
+      "key_trade_partners": ["US", "JP", "KR", "DE", "AU"]
+    },
+    {
+      "id": "IN",
+      "name": "India",
+      "region": "South Asia",
+      "gdp_rank": 5,
+      "key_industries": ["technology", "pharmaceuticals", "agriculture", "textiles", "automotive"],
+      "key_trade_partners": ["US", "CN", "AE", "SA", "DE"]
+    },
+    {
+      "id": "DE",
+      "name": "Germany",
+      "region": "Europe",
+      "gdp_rank": 3,
+      "key_industries": ["automotive", "manufacturing", "chemicals", "finance", "energy"],
+      "key_trade_partners": ["US", "CN", "FR", "NL", "PL"]
+    },
+    {
+      "id": "JP",
+      "name": "Japan",
+      "region": "East Asia",
+      "gdp_rank": 4,
+      "key_industries": ["automotive", "technology", "manufacturing", "finance", "robotics"],
+      "key_trade_partners": ["US", "CN", "KR", "TW", "AU"]
+    }
+  ],
+  "industries": [
+    {"id": "technology", "label": "Technology & Semiconductors", "commodities": ["silicon", "rare_earth", "copper"]},
+    {"id": "finance", "label": "Financial Services", "commodities": []},
+    {"id": "healthcare", "label": "Healthcare & Pharmaceuticals", "commodities": ["api_chemicals", "medical_devices"]},
+    {"id": "energy", "label": "Energy & Oil/Gas", "commodities": ["crude_oil", "natural_gas", "lng"]},
+    {"id": "defense", "label": "Defense & Aerospace", "commodities": ["titanium", "aluminum", "rare_earth"]},
+    {"id": "automotive", "label": "Automotive", "commodities": ["steel", "aluminum", "lithium", "cobalt"]},
+    {"id": "manufacturing", "label": "General Manufacturing", "commodities": ["steel", "copper", "plastics"]},
+    {"id": "agriculture", "label": "Agriculture & Food", "commodities": ["wheat", "rice", "fertilizer"]},
+    {"id": "mining", "label": "Mining & Metals", "commodities": ["iron_ore", "copper", "gold", "rare_earth"]},
+    {"id": "shipping", "label": "Shipping & Logistics", "commodities": ["fuel", "containers"]}
+  ],
+  "companies": [
+    {"id": "AAPL", "name": "Apple Inc.", "country": "US", "industry": "technology", "ticker": "AAPL", "supply_dependencies": ["TSMC", "SAMSUNG_ELEC", "FOXCONN"]},
+    {"id": "MSFT", "name": "Microsoft Corp.", "country": "US", "industry": "technology", "ticker": "MSFT", "supply_dependencies": ["TSMC", "INTC"]},
+    {"id": "GOOGL", "name": "Alphabet Inc.", "country": "US", "industry": "technology", "ticker": "GOOGL", "supply_dependencies": ["TSMC", "SAMSUNG_ELEC"]},
+    {"id": "NVDA", "name": "NVIDIA Corp.", "country": "US", "industry": "technology", "ticker": "NVDA", "supply_dependencies": ["TSMC"]},
+    {"id": "TSMC", "name": "Taiwan Semiconductor", "country": "TW", "industry": "technology", "ticker": "TSM", "supply_dependencies": ["ASML"]},
+    {"id": "SAMSUNG_ELEC", "name": "Samsung Electronics", "country": "KR", "industry": "technology", "ticker": "005930.KS", "supply_dependencies": ["ASML"]},
+    {"id": "ASML", "name": "ASML Holding", "country": "NL", "industry": "technology", "ticker": "ASML", "supply_dependencies": []},
+    {"id": "JPM", "name": "JPMorgan Chase", "country": "US", "industry": "finance", "ticker": "JPM", "supply_dependencies": []},
+    {"id": "ARAMCO", "name": "Saudi Aramco", "country": "SA", "industry": "energy", "ticker": "2222.SR", "supply_dependencies": []},
+    {"id": "XOM", "name": "Exxon Mobil", "country": "US", "industry": "energy", "ticker": "XOM", "supply_dependencies": ["ARAMCO"]},
+    {"id": "PFE", "name": "Pfizer Inc.", "country": "US", "industry": "healthcare", "ticker": "PFE", "supply_dependencies": []},
+    {"id": "SUN_PHARMA", "name": "Sun Pharmaceutical", "country": "IN", "industry": "healthcare", "ticker": "SUNPHARMA.NS", "supply_dependencies": []},
+    {"id": "TOYOTA", "name": "Toyota Motor Corp.", "country": "JP", "industry": "automotive", "ticker": "TM", "supply_dependencies": ["NIPPON_STEEL"]},
+    {"id": "VW", "name": "Volkswagen AG", "country": "DE", "industry": "automotive", "ticker": "VOW3.DE", "supply_dependencies": ["BASF"]},
+    {"id": "BASF", "name": "BASF SE", "country": "DE", "industry": "manufacturing", "ticker": "BAS.DE", "supply_dependencies": []},
+    {"id": "NIPPON_STEEL", "name": "Nippon Steel Corp.", "country": "JP", "industry": "mining", "ticker": "5401.T", "supply_dependencies": []},
+    {"id": "FOXCONN", "name": "Hon Hai Precision (Foxconn)", "country": "TW", "industry": "manufacturing", "ticker": "2317.TW", "supply_dependencies": []},
+    {"id": "INTC", "name": "Intel Corp.", "country": "US", "industry": "technology", "ticker": "INTC", "supply_dependencies": ["ASML"]},
+    {"id": "MAERSK", "name": "A.P. Moller-Maersk", "country": "DK", "industry": "shipping", "ticker": "MAERSK-B.CO", "supply_dependencies": []},
+    {"id": "CATL", "name": "CATL (Contemporary Amperex)", "country": "CN", "industry": "manufacturing", "ticker": "300750.SZ", "supply_dependencies": []}
+  ],
+  "commodities": [
+    {"id": "crude_oil", "label": "Crude Oil", "unit": "barrel", "key_producers": ["SA", "US", "RU"]},
+    {"id": "natural_gas", "label": "Natural Gas", "unit": "mmbtu", "key_producers": ["US", "RU", "QA"]},
+    {"id": "silicon", "label": "Silicon Wafers", "unit": "wafer", "key_producers": ["JP", "DE", "KR"]},
+    {"id": "rare_earth", "label": "Rare Earth Elements", "unit": "ton", "key_producers": ["CN", "AU", "US"]},
+    {"id": "copper", "label": "Copper", "unit": "ton", "key_producers": ["CL", "PE", "CN"]},
+    {"id": "steel", "label": "Steel", "unit": "ton", "key_producers": ["CN", "IN", "JP"]},
+    {"id": "lithium", "label": "Lithium", "unit": "ton", "key_producers": ["AU", "CL", "CN"]},
+    {"id": "wheat", "label": "Wheat", "unit": "bushel", "key_producers": ["CN", "IN", "RU"]},
+    {"id": "iron_ore", "label": "Iron Ore", "unit": "ton", "key_producers": ["AU", "BR", "CN"]}
+  ]
+}

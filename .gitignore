@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Notebooks (keep .ipynb for colab/ only - exclude elsewhere)
+.ipynb_checkpoints/
+*.ipynb~
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Model files (if too large)
+*.safetensors
+*.bin
+*.pt
+*.pth
+model.pkl
+
+# Documentation generation
+site/
+docs/_build/
+
+# Markdown files (exclude all except README.md)
+DEPLOYMENT_GUIDE.md
+EXACT_CHANGES.md
+FIX_SUMMARY.md
+QUICK_REFERENCE.md
+*.md
+!README.md
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Development
+.benchmarks/
+*.pickle
+debug.log

@@ -1,0 +1,141 @@
+{
+  "countries": [
+    {
+      "code": "US",
+      "name": "United States",
+      "region": "North America",
+      "gdp_usd_tn": 25.5,
+      "trade_partners": {"CN": 3.5, "MX": 2.8, "CA": 2.5, "JP": 1.2, "DE": 1.0},
+      "industries": [
+        {"id": "US_TECH", "name": "Technology", "commodities": ["SEMICONDUCTOR", "RARE_EARTH"], "gdp_weight": 0.10},
+        {"id": "US_FINANCE", "name": "Financial Services", "commodities": [], "gdp_weight": 0.08},
+        {"id": "US_PHARMA", "name": "Pharmaceuticals", "commodities": ["API_CHEMICALS"], "gdp_weight": 0.05},
+        {"id": "US_ENERGY", "name": "Energy", "commodities": ["CRUDE_OIL", "NATURAL_GAS"], "gdp_weight": 0.08},
+        {"id": "US_AUTO", "name": "Automotive", "commodities": ["STEEL", "ALUMINUM", "SEMICONDUCTOR"], "gdp_weight": 0.03},
+        {"id": "US_DEFENSE", "name": "Defense & Aerospace", "commodities": ["RARE_EARTH", "TITANIUM", "SEMICONDUCTOR"], "gdp_weight": 0.04},
+        {"id": "US_AGRI", "name": "Agriculture", "commodities": ["WHEAT", "CORN", "SOYBEAN"], "gdp_weight": 0.05},
+        {"id": "US_RETAIL", "name": "Retail & Consumer", "commodities": ["TEXTILES", "ELECTRONICS_COMPONENTS"], "gdp_weight": 0.06},
+        {"id": "US_LOGISTICS", "name": "Logistics & Shipping", "commodities": ["CRUDE_OIL"], "gdp_weight": 0.03},
+        {"id": "US_TELECOM", "name": "Telecommunications", "commodities": ["SEMICONDUCTOR", "FIBER_OPTIC"], "gdp_weight": 0.03}
+      ]
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "region": "East Asia",
+      "gdp_usd_tn": 17.9,
+      "trade_partners": {"US": 3.2, "JP": 1.5, "KR": 1.3, "DE": 1.0, "IN": 0.8},
+      "industries": [
+        {"id": "CN_TECH", "name": "Technology", "commodities": ["SEMICONDUCTOR", "RARE_EARTH"], "gdp_weight": 0.09},
+        {"id": "CN_MFCT", "name": "Manufacturing", "commodities": ["STEEL", "ALUMINUM", "TEXTILES"], "gdp_weight": 0.27},
+        {"id": "CN_PHARMA", "name": "Pharmaceuticals", "commodities": ["API_CHEMICALS"], "gdp_weight": 0.03},
+        {"id": "CN_ENERGY", "name": "Energy", "commodities": ["CRUDE_OIL", "COAL", "NATURAL_GAS"], "gdp_weight": 0.06},
+        {"id": "CN_AUTO", "name": "Automotive", "commodities": ["STEEL", "ALUMINUM", "SEMICONDUCTOR", "LITHIUM"], "gdp_weight": 0.05},
+        {"id": "CN_DEFENSE", "name": "Defense", "commodities": ["RARE_EARTH", "TITANIUM", "SEMICONDUCTOR"], "gdp_weight": 0.02},
+        {"id": "CN_AGRI", "name": "Agriculture", "commodities": ["WHEAT", "RICE", "SOYBEAN"], "gdp_weight": 0.07},
+        {"id": "CN_RETAIL", "name": "Retail & E-commerce", "commodities": ["TEXTILES", "ELECTRONICS_COMPONENTS"], "gdp_weight": 0.10},
+        {"id": "CN_LOGISTICS", "name": "Logistics & Shipping", "commodities": ["CRUDE_OIL", "STEEL"], "gdp_weight": 0.05},
+        {"id": "CN_TELECOM", "name": "Telecommunications", "commodities": ["SEMICONDUCTOR", "FIBER_OPTIC"], "gdp_weight": 0.03}
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "region": "South Asia",
+      "gdp_usd_tn": 3.7,
+      "trade_partners": {"CN": 1.2, "US": 1.0, "AE": 0.7, "SA": 0.6, "DE": 0.3},
+      "industries": [
+        {"id": "IN_TECH", "name": "IT Services", "commodities": ["SEMICONDUCTOR"], "gdp_weight": 0.08},
+        {"id": "IN_PHARMA", "name": "Pharmaceuticals", "commodities": ["API_CHEMICALS"], "gdp_weight": 0.04},
+        {"id": "IN_MFCT", "name": "Manufacturing", "commodities": ["STEEL", "TEXTILES", "ALUMINUM"], "gdp_weight": 0.15},
+        {"id": "IN_ENERGY", "name": "Energy", "commodities": ["CRUDE_OIL", "COAL", "NATURAL_GAS"], "gdp_weight": 0.06},
+        {"id": "IN_AUTO", "name": "Automotive", "commodities": ["STEEL", "ALUMINUM", "SEMICONDUCTOR"], "gdp_weight": 0.07},
+        {"id": "IN_DEFENSE", "name": "Defense", "commodities": ["RARE_EARTH", "TITANIUM"], "gdp_weight": 0.02},
+        {"id": "IN_AGRI", "name": "Agriculture", "commodities": ["WHEAT", "RICE", "COTTON"], "gdp_weight": 0.17},
+        {"id": "IN_RETAIL", "name": "Retail & Consumer", "commodities": ["TEXTILES", "ELECTRONICS_COMPONENTS"], "gdp_weight": 0.10},
+        {"id": "IN_LOGISTICS", "name": "Logistics", "commodities": ["CRUDE_OIL"], "gdp_weight": 0.04},
+        {"id": "IN_TELECOM", "name": "Telecommunications", "commodities": ["SEMICONDUCTOR", "FIBER_OPTIC"], "gdp_weight": 0.03}
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "region": "Europe",
+      "gdp_usd_tn": 4.2,
+      "trade_partners": {"CN": 1.5, "US": 1.3, "FR": 0.9, "NL": 0.8, "PL": 0.5},
+      "industries": [
+        {"id": "DE_AUTO", "name": "Automotive", "commodities": ["STEEL", "ALUMINUM", "SEMICONDUCTOR", "LITHIUM"], "gdp_weight": 0.10},
+        {"id": "DE_MFCT", "name": "Industrial Manufacturing", "commodities": ["STEEL", "ALUMINUM", "RARE_EARTH"], "gdp_weight": 0.20},
+        {"id": "DE_PHARMA", "name": "Pharmaceuticals", "commodities": ["API_CHEMICALS"], "gdp_weight": 0.04},
+        {"id": "DE_ENERGY", "name": "Energy", "commodities": ["NATURAL_GAS", "CRUDE_OIL"], "gdp_weight": 0.05},
+        {"id": "DE_TECH", "name": "Technology", "commodities": ["SEMICONDUCTOR"], "gdp_weight": 0.05},
+        {"id": "DE_CHEM", "name": "Chemicals", "commodities": ["NATURAL_GAS", "CRUDE_OIL", "API_CHEMICALS"], "gdp_weight": 0.06},
+        {"id": "DE_FINANCE", "name": "Financial Services", "commodities": [], "gdp_weight": 0.04},
+        {"id": "DE_AGRI", "name": "Agriculture", "commodities": ["WHEAT", "CORN"], "gdp_weight": 0.01},
+        {"id": "DE_LOGISTICS", "name": "Logistics", "commodities": ["CRUDE_OIL"], "gdp_weight": 0.05},
+        {"id": "DE_TELECOM", "name": "Telecommunications", "commodities": ["SEMICONDUCTOR", "FIBER_OPTIC"], "gdp_weight": 0.02}
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "region": "East Asia",
+      "gdp_usd_tn": 4.2,
+      "trade_partners": {"CN": 2.0, "US": 1.5, "KR": 0.6, "AU": 0.5, "TW": 0.4},
+      "industries": [
+        {"id": "JP_AUTO", "name": "Automotive", "commodities": ["STEEL", "ALUMINUM", "SEMICONDUCTOR", "LITHIUM"], "gdp_weight": 0.12},
+        {"id": "JP_TECH", "name": "Technology & Electronics", "commodities": ["SEMICONDUCTOR", "RARE_EARTH"], "gdp_weight": 0.08},
+        {"id": "JP_MFCT", "name": "Industrial Manufacturing", "commodities": ["STEEL", "ALUMINUM"], "gdp_weight": 0.15},
+        {"id": "JP_PHARMA", "name": "Pharmaceuticals", "commodities": ["API_CHEMICALS"], "gdp_weight": 0.03},
+        {"id": "JP_ENERGY", "name": "Energy", "commodities": ["CRUDE_OIL", "NATURAL_GAS", "COAL"], "gdp_weight": 0.05},
+        {"id": "JP_FINANCE", "name": "Financial Services", "commodities": [], "gdp_weight": 0.05},
+        {"id": "JP_CHEM", "name": "Chemicals", "commodities": ["NATURAL_GAS", "CRUDE_OIL"], "gdp_weight": 0.04},
+        {"id": "JP_AGRI", "name": "Agriculture", "commodities": ["RICE", "WHEAT"], "gdp_weight": 0.01},
+        {"id": "JP_LOGISTICS", "name": "Logistics & Shipping", "commodities": ["CRUDE_OIL"], "gdp_weight": 0.05},
+        {"id": "JP_TELECOM", "name": "Telecommunications", "commodities": ["SEMICONDUCTOR", "FIBER_OPTIC"], "gdp_weight": 0.03}
+      ]
+    }
+  ],
+  "commodities": [
+    {"id": "SEMICONDUCTOR", "name": "Semiconductors", "unit": "units", "top_producers": ["TW", "KR", "US", "JP"], "top_consumers": ["CN", "US", "JP", "DE"]},
+    {"id": "RARE_EARTH", "name": "Rare Earth Elements", "unit": "tonnes", "top_producers": ["CN", "AU", "MM"], "top_consumers": ["US", "JP", "DE"]},
+    {"id": "CRUDE_OIL", "name": "Crude Oil", "unit": "bbl", "top_producers": ["SA", "US", "RU"], "top_consumers": ["CN", "US", "IN", "JP"]},
+    {"id": "NATURAL_GAS", "name": "Natural Gas", "unit": "mcf", "top_producers": ["US", "RU", "QA"], "top_consumers": ["US", "DE", "JP", "CN"]},
+    {"id": "STEEL", "name": "Steel", "unit": "tonnes", "top_producers": ["CN", "IN", "JP"], "top_consumers": ["CN", "US", "IN", "JP", "DE"]},
+    {"id": "ALUMINUM", "name": "Aluminum", "unit": "tonnes", "top_producers": ["CN", "IN", "RU"], "top_consumers": ["CN", "US", "DE", "JP"]},
+    {"id": "LITHIUM", "name": "Lithium", "unit": "tonnes", "top_producers": ["AU", "CL", "CN"], "top_consumers": ["CN", "KR", "JP", "US"]},
+    {"id": "API_CHEMICALS", "name": "Active Pharma Ingredients", "unit": "tonnes", "top_producers": ["CN", "IN"], "top_consumers": ["US", "DE", "JP"]},
+    {"id": "WHEAT", "name": "Wheat", "unit": "tonnes", "top_producers": ["CN", "IN", "RU", "US"], "top_consumers": ["CN", "IN", "US"]},
+    {"id": "RICE", "name": "Rice", "unit": "tonnes", "top_producers": ["CN", "IN", "ID"], "top_consumers": ["CN", "IN", "ID"]},
+    {"id": "CORN", "name": "Corn", "unit": "tonnes", "top_producers": ["US", "CN", "BR"], "top_consumers": ["US", "CN"]},
+    {"id": "SOYBEAN", "name": "Soybean", "unit": "tonnes", "top_producers": ["BR", "US", "AR"], "top_consumers": ["CN", "US"]},
+    {"id": "COTTON", "name": "Cotton", "unit": "tonnes", "top_producers": ["CN", "IN", "US"], "top_consumers": ["CN", "IN", "BD"]},
+    {"id": "TEXTILES", "name": "Textiles & Fabrics", "unit": "tonnes", "top_producers": ["CN", "IN", "BD"], "top_consumers": ["US", "DE", "JP"]},
+    {"id": "TITANIUM", "name": "Titanium", "unit": "tonnes", "top_producers": ["CN", "RU", "JP"], "top_consumers": ["US", "DE", "JP"]},
+    {"id": "COAL", "name": "Coal", "unit": "tonnes", "top_producers": ["CN", "IN", "ID", "AU"], "top_consumers": ["CN", "IN", "JP"]},
+    {"id": "ELECTRONICS_COMPONENTS", "name": "Electronics Components", "unit": "units", "top_producers": ["CN", "TW", "KR", "JP"], "top_consumers": ["US", "CN", "DE"]},
+    {"id": "FIBER_OPTIC", "name": "Fiber Optic Cable", "unit": "km", "top_producers": ["CN", "US", "JP"], "top_consumers": ["US", "CN", "IN"]}
+  ],
+  "companies": [
+    {"id": "AAPL", "name": "Apple Inc.", "country": "US", "industry": "US_TECH", "tickers": [{"symbol": "AAPL", "exchange": "NASDAQ"}], "revenue_usd_bn": 383.0, "supply_chain_dependencies": ["SEMICONDUCTOR", "RARE_EARTH", "ELECTRONICS_COMPONENTS"]},
+    {"id": "MSFT", "name": "Microsoft Corp.", "country": "US", "industry": "US_TECH", "tickers": [{"symbol": "MSFT", "exchange": "NASDAQ"}], "revenue_usd_bn": 211.0, "supply_chain_dependencies": ["SEMICONDUCTOR"]},
+    {"id": "JPM", "name": "JPMorgan Chase", "country": "US", "industry": "US_FINANCE", "tickers": [{"symbol": "JPM", "exchange": "NYSE"}], "revenue_usd_bn": 154.0, "supply_chain_dependencies": []},
+    {"id": "JNJ", "name": "Johnson & Johnson", "country": "US", "industry": "US_PHARMA", "tickers": [{"symbol": "JNJ", "exchange": "NYSE"}], "revenue_usd_bn": 85.0, "supply_chain_dependencies": ["API_CHEMICALS"]},
+    {"id": "XOM", "name": "ExxonMobil", "country": "US", "industry": "US_ENERGY", "tickers": [{"symbol": "XOM", "exchange": "NYSE"}], "revenue_usd_bn": 344.0, "supply_chain_dependencies": ["CRUDE_OIL", "NATURAL_GAS"]},
+    {"id": "LMT", "name": "Lockheed Martin", "country": "US", "industry": "US_DEFENSE", "tickers": [{"symbol": "LMT", "exchange": "NYSE"}], "revenue_usd_bn": 67.0, "supply_chain_dependencies": ["RARE_EARTH", "TITANIUM", "SEMICONDUCTOR"]},
+    {"id": "BABA", "name": "Alibaba Group", "country": "CN", "industry": "CN_RETAIL", "tickers": [{"symbol": "BABA", "exchange": "NYSE"}], "revenue_usd_bn": 130.0, "supply_chain_dependencies": ["ELECTRONICS_COMPONENTS"]},
+    {"id": "TSM_CN", "name": "SMIC", "country": "CN", "industry": "CN_TECH", "tickers": [{"symbol": "0981.HK", "exchange": "HKEX"}], "revenue_usd_bn": 7.0, "supply_chain_dependencies": ["SEMICONDUCTOR", "RARE_EARTH"]},
+    {"id": "BYD", "name": "BYD Company", "country": "CN", "industry": "CN_AUTO", "tickers": [{"symbol": "1211.HK", "exchange": "HKEX"}], "revenue_usd_bn": 85.0, "supply_chain_dependencies": ["LITHIUM", "STEEL", "SEMICONDUCTOR"]},
+    {"id": "COSCO", "name": "COSCO Shipping", "country": "CN", "industry": "CN_LOGISTICS", "tickers": [{"symbol": "1919.HK", "exchange": "HKEX"}], "revenue_usd_bn": 30.0, "supply_chain_dependencies": ["CRUDE_OIL", "STEEL"]},
+    {"id": "TCS", "name": "Tata Consultancy Services", "country": "IN", "industry": "IN_TECH", "tickers": [{"symbol": "TCS.NS", "exchange": "NSE"}], "revenue_usd_bn": 28.0, "supply_chain_dependencies": ["SEMICONDUCTOR"]},
+    {"id": "SUNPHARMA", "name": "Sun Pharmaceutical", "country": "IN", "industry": "IN_PHARMA", "tickers": [{"symbol": "SUNPHARMA.NS", "exchange": "NSE"}], "revenue_usd_bn": 5.5, "supply_chain_dependencies": ["API_CHEMICALS"]},
+    {"id": "TATAMOTORS", "name": "Tata Motors", "country": "IN", "industry": "IN_AUTO", "tickers": [{"symbol": "TATAMOTORS.NS", "exchange": "NSE"}], "revenue_usd_bn": 44.0, "supply_chain_dependencies": ["STEEL", "ALUMINUM", "SEMICONDUCTOR"]},
+    {"id": "RELIANCE", "name": "Reliance Industries", "country": "IN", "industry": "IN_ENERGY", "tickers": [{"symbol": "RELIANCE.NS", "exchange": "NSE"}], "revenue_usd_bn": 100.0, "supply_chain_dependencies": ["CRUDE_OIL", "NATURAL_GAS"]},
+    {"id": "VOLKSWAGEN", "name": "Volkswagen AG", "country": "DE", "industry": "DE_AUTO", "tickers": [{"symbol": "VOW3.DE", "exchange": "XETRA"}], "revenue_usd_bn": 295.0, "supply_chain_dependencies": ["STEEL", "ALUMINUM", "SEMICONDUCTOR", "LITHIUM"]},
+    {"id": "SIEMENS", "name": "Siemens AG", "country": "DE", "industry": "DE_MFCT", "tickers": [{"symbol": "SIE.DE", "exchange": "XETRA"}], "revenue_usd_bn": 77.0, "supply_chain_dependencies": ["STEEL", "RARE_EARTH", "SEMICONDUCTOR"]},
+    {"id": "BASF", "name": "BASF SE", "country": "DE", "industry": "DE_CHEM", "tickers": [{"symbol": "BAS.DE", "exchange": "XETRA"}], "revenue_usd_bn": 78.0, "supply_chain_dependencies": ["NATURAL_GAS", "CRUDE_OIL"]},
+    {"id": "TOYOTA", "name": "Toyota Motor Corp.", "country": "JP", "industry": "JP_AUTO", "tickers": [{"symbol": "7203.T", "exchange": "TSE"}], "revenue_usd_bn": 274.0, "supply_chain_dependencies": ["STEEL", "ALUMINUM", "SEMICONDUCTOR", "LITHIUM"]},
+    {"id": "SONY", "name": "Sony Group Corp.", "country": "JP", "industry": "JP_TECH", "tickers": [{"symbol": "6758.T", "exchange": "TSE"}], "revenue_usd_bn": 88.0, "supply_chain_dependencies": ["SEMICONDUCTOR", "RARE_EARTH"]},
+    {"id": "MITSUBISHI", "name": "Mitsubishi Corp.", "country": "JP", "industry": "JP_MFCT", "tickers": [{"symbol": "8058.T", "exchange": "TSE"}], "revenue_usd_bn": 150.0, "supply_chain_dependencies": ["STEEL", "ALUMINUM", "CRUDE_OIL"]}
+  ]
+}

@@ -1,0 +1,2298 @@
+[
+  {
+    "timestamp": "2026-03-19T17:26:53.903589",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 61.6,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:53.965923",
+    "event_label": "sanctions",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3185,
+      "severe": 0.3032,
+      "extreme": 0.1806
+    },
+    "risk_score": 43.8,
+    "scenario_text": "US imposes semiconductor sanctions on China",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.031847",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 40.8,
+    "scenario_text": "New deadly virus pandemic spreads globally",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.090369",
+    "event_label": "natural_disaster",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.234,
+      "moderate": 0.3351,
+      "severe": 0.2817,
+      "extreme": 0.1492
+    },
+    "risk_score": 41.0,
+    "scenario_text": "Massive earthquake destroys Tokyo",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.148719",
+    "event_label": "supply_shock",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1988,
+      "moderate": 0.3222,
+      "severe": 0.3032,
+      "extreme": 0.1759
+    },
+    "risk_score": 46.0,
+    "scenario_text": "Global semiconductor chip shortage worsens",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.213684",
+    "event_label": "political_crisis",
+    "confidence": 0.4891,
+    "severity_probs": {
+      "mild": 0.1835,
+      "moderate": 0.3069,
+      "severe": 0.3135,
+      "extreme": 0.1961
+    },
+    "risk_score": 25.3,
+    "scenario_text": "Military coup overthrows Saudi Arabian government",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.261019",
+    "event_label": "economic_crisis",
+    "confidence": 0.4969,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 71.7,
+    "scenario_text": "Major recession and banking collapse hits US",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.331812",
+    "event_label": "cyberattack",
+    "confidence": 0.4803,
+    "severity_probs": {
+      "mild": 0.1914,
+      "moderate": 0.3185,
+      "severe": 0.3064,
+      "extreme": 0.1837
+    },
+    "risk_score": 38.2,
+    "scenario_text": "Massive ransomware attack hits US banking system",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.384785",
+    "event_label": "energy_crisis",
+    "confidence": 0.4856,
+    "severity_probs": {
+      "mild": 0.167,
+      "moderate": 0.2957,
+      "severe": 0.3209,
+      "extreme": 0.2164
+    },
+    "risk_score": 31.4,
+    "scenario_text": "Oil pipeline explosion disrupts Middle East supply",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.431151",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.497502",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 61.1,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.553025",
+    "event_label": "economic_crisis",
+    "confidence": 0.4949,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 71.0,
+    "scenario_text": "Global banking crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.615545",
+    "event_label": "energy_crisis",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.167,
+      "moderate": 0.2957,
+      "severe": 0.3209,
+      "extreme": 0.2164
+    },
+    "risk_score": 31.6,
+    "scenario_text": "Oil crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.682565",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 61.8,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.750843",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 41.3,
+    "scenario_text": "Pandemic outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.817998",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 62.1,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.865203",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign free trade deal",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:54.934897",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 62.7,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:26:55.001351",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 41.3,
+    "scenario_text": "Global pandemic virus outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:31:13.196374",
+    "event_label": "war",
+    "confidence": 0.1284,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 62.1,
+    "scenario_text": "China launches amphibious assault on Taiwan, triggering US naval response and escalating to potential nuclear standoff",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:31:29.561400",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 61.8,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:40:44.913116",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 77.5,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:40:51.274442",
+    "event_label": "sanctions",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3185,
+      "severe": 0.3032,
+      "extreme": 0.1806
+    },
+    "risk_score": 60.1,
+    "scenario_text": "US imposes semiconductor export bans on China",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:40:57.540630",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 55.6,
+    "scenario_text": "New deadly virus pandemic spreads globally from Southeast Asia",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:41:04.301362",
+    "event_label": "natural_disaster",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.234,
+      "moderate": 0.3351,
+      "severe": 0.2817,
+      "extreme": 0.1492
+    },
+    "risk_score": 55.9,
+    "scenario_text": "Massive earthquake and tsunami destroys Tokyo infrastructure",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:41:11.523240",
+    "event_label": "supply_shock",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1988,
+      "moderate": 0.3222,
+      "severe": 0.3032,
+      "extreme": 0.1759
+    },
+    "risk_score": 66.0,
+    "scenario_text": "Global semiconductor chip shortage worsens dramatically",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:41:19.001585",
+    "event_label": "political_crisis",
+    "confidence": 0.4891,
+    "severity_probs": {
+      "mild": 0.1835,
+      "moderate": 0.3069,
+      "severe": 0.3135,
+      "extreme": 0.1961
+    },
+    "risk_score": 34.8,
+    "scenario_text": "Military coup overthrows Saudi Arabian government",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:41:25.817698",
+    "event_label": "economic_crisis",
+    "confidence": 0.5075,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 88.2,
+    "scenario_text": "Major US banking collapse triggers global recession",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:41:33.690456",
+    "event_label": "cyberattack",
+    "confidence": 0.4807,
+    "severity_probs": {
+      "mild": 0.1914,
+      "moderate": 0.3185,
+      "severe": 0.3064,
+      "extreme": 0.1837
+    },
+    "risk_score": 52.9,
+    "scenario_text": "Ransomware attack shuts down US banking infrastructure",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:41:42.139632",
+    "event_label": "energy_crisis",
+    "confidence": 0.4906,
+    "severity_probs": {
+      "mild": 0.167,
+      "moderate": 0.2957,
+      "severe": 0.3209,
+      "extreme": 0.2164
+    },
+    "risk_score": 47.8,
+    "scenario_text": "Oil pipeline explosion disrupts Middle East energy supply",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:41:54.643920",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.1,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:50:31.990197",
+    "event_label": "economic_crisis",
+    "confidence": 0.1233,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 88.0,
+    "scenario_text": "usa president assassination",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T17:51:12.429523",
+    "event_label": "economic_crisis",
+    "confidence": 0.1174,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 88.6,
+    "scenario_text": "usa president death",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T21:11:59.915682",
+    "event_label": "sanctions",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3185,
+      "severe": 0.3032,
+      "extreme": 0.1806
+    },
+    "risk_score": 26.7,
+    "scenario_text": "Semiconductor export ban",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T21:12:20.734801",
+    "event_label": "economic_crisis",
+    "confidence": 0.1255,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 43.9,
+    "scenario_text": "American president death",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T21:13:12.851565",
+    "event_label": "economic_crisis",
+    "confidence": 0.1167,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 43.9,
+    "scenario_text": "modi death",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-19T21:13:36.766727",
+    "event_label": "economic_crisis",
+    "confidence": 0.1134,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 44.0,
+    "scenario_text": "raswanth death",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.292461",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.9,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.300751",
+    "event_label": "sanctions",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3185,
+      "severe": 0.3032,
+      "extreme": 0.1806
+    },
+    "risk_score": 20.3,
+    "scenario_text": "US imposes semiconductor sanctions on China",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.308046",
+    "event_label": "pandemic",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 22.1,
+    "scenario_text": "New deadly virus pandemic spreads globally",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.314380",
+    "event_label": "natural_disaster",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.234,
+      "moderate": 0.3351,
+      "severe": 0.2817,
+      "extreme": 0.1492
+    },
+    "risk_score": 29.1,
+    "scenario_text": "Massive earthquake destroys Tokyo",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.320828",
+    "event_label": "supply_shock",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1988,
+      "moderate": 0.3222,
+      "severe": 0.3032,
+      "extreme": 0.1759
+    },
+    "risk_score": 21.4,
+    "scenario_text": "Global semiconductor chip shortage worsens",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.328528",
+    "event_label": "political_crisis",
+    "confidence": 0.6667,
+    "severity_probs": {
+      "mild": 0.1835,
+      "moderate": 0.3057,
+      "severe": 0.3128,
+      "extreme": 0.1981
+    },
+    "risk_score": 9.3,
+    "scenario_text": "Military coup overthrows Saudi Arabian government",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.334783",
+    "event_label": "economic_crisis",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 33.6,
+    "scenario_text": "Major recession and banking collapse hits US",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.341916",
+    "event_label": "cyberattack",
+    "confidence": 0.4286,
+    "severity_probs": {
+      "mild": 0.1874,
+      "moderate": 0.3127,
+      "severe": 0.309,
+      "extreme": 0.1908
+    },
+    "risk_score": 15.4,
+    "scenario_text": "Massive ransomware attack hits US banking system",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.348681",
+    "event_label": "energy_crisis",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.167,
+      "moderate": 0.2957,
+      "severe": 0.3209,
+      "extreme": 0.2164
+    },
+    "risk_score": 13.4,
+    "scenario_text": "Oil pipeline explosion disrupts Middle East supply",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.354351",
+    "event_label": "trade_agreement",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.557100",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.8,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.563291",
+    "event_label": "economic_crisis",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 33.9,
+    "scenario_text": "Global banking crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.569831",
+    "event_label": "energy_crisis",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.167,
+      "moderate": 0.2957,
+      "severe": 0.3209,
+      "extreme": 0.2164
+    },
+    "risk_score": 13.6,
+    "scenario_text": "Oil crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.576998",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.8,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.584171",
+    "event_label": "pandemic",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 21.6,
+    "scenario_text": "Pandemic outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.591448",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.9,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.596444",
+    "event_label": "trade_agreement",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign free trade deal",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.603649",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.8,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:37:41.610592",
+    "event_label": "pandemic",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 21.6,
+    "scenario_text": "Global pandemic virus outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.067923",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.9,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.075561",
+    "event_label": "sanctions",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3185,
+      "severe": 0.3032,
+      "extreme": 0.1806
+    },
+    "risk_score": 20.3,
+    "scenario_text": "US imposes semiconductor sanctions on China",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.082565",
+    "event_label": "pandemic",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 22.1,
+    "scenario_text": "New deadly virus pandemic spreads globally",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.088418",
+    "event_label": "natural_disaster",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.234,
+      "moderate": 0.3351,
+      "severe": 0.2817,
+      "extreme": 0.1492
+    },
+    "risk_score": 29.1,
+    "scenario_text": "Massive earthquake destroys Tokyo",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.094973",
+    "event_label": "supply_shock",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1988,
+      "moderate": 0.3222,
+      "severe": 0.3032,
+      "extreme": 0.1759
+    },
+    "risk_score": 21.4,
+    "scenario_text": "Global semiconductor chip shortage worsens",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.103299",
+    "event_label": "political_crisis",
+    "confidence": 0.6667,
+    "severity_probs": {
+      "mild": 0.1835,
+      "moderate": 0.3057,
+      "severe": 0.3128,
+      "extreme": 0.1981
+    },
+    "risk_score": 9.3,
+    "scenario_text": "Military coup overthrows Saudi Arabian government",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.109788",
+    "event_label": "economic_crisis",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 33.6,
+    "scenario_text": "Major recession and banking collapse hits US",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.117226",
+    "event_label": "cyberattack",
+    "confidence": 0.4286,
+    "severity_probs": {
+      "mild": 0.1874,
+      "moderate": 0.3127,
+      "severe": 0.309,
+      "extreme": 0.1908
+    },
+    "risk_score": 15.4,
+    "scenario_text": "Massive ransomware attack hits US banking system",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.124070",
+    "event_label": "energy_crisis",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.167,
+      "moderate": 0.2957,
+      "severe": 0.3209,
+      "extreme": 0.2164
+    },
+    "risk_score": 13.4,
+    "scenario_text": "Oil pipeline explosion disrupts Middle East supply",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.129163",
+    "event_label": "trade_agreement",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.136255",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.8,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.142205",
+    "event_label": "economic_crisis",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1181,
+      "moderate": 0.2566,
+      "severe": 0.3465,
+      "extreme": 0.2788
+    },
+    "risk_score": 33.9,
+    "scenario_text": "Global banking crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.148462",
+    "event_label": "energy_crisis",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.167,
+      "moderate": 0.2957,
+      "severe": 0.3209,
+      "extreme": 0.2164
+    },
+    "risk_score": 13.6,
+    "scenario_text": "Oil crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.155697",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.8,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.163156",
+    "event_label": "pandemic",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 21.6,
+    "scenario_text": "Pandemic outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.170765",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.9,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.175981",
+    "event_label": "trade_agreement",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign free trade deal",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.183277",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 26.8,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:14.191702",
+    "event_label": "pandemic",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 21.6,
+    "scenario_text": "Global pandemic virus outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:29.777284",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 27.1,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:29.784528",
+    "event_label": "trade_agreement",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:29.792928",
+    "event_label": "pandemic",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1094,
+      "moderate": 0.2488,
+      "severe": 0.3516,
+      "extreme": 0.2902
+    },
+    "risk_score": 21.6,
+    "scenario_text": "New deadly virus pandemic spreads globally",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:29.801662",
+    "event_label": "cyberattack",
+    "confidence": 0.4286,
+    "severity_probs": {
+      "mild": 0.1874,
+      "moderate": 0.3127,
+      "severe": 0.309,
+      "extreme": 0.1908
+    },
+    "risk_score": 15.1,
+    "scenario_text": "Massive ransomware attack hits US banking system",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:29.810756",
+    "event_label": "war",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.1026,
+      "moderate": 0.2379,
+      "severe": 0.3518,
+      "extreme": 0.3076
+    },
+    "risk_score": 27.1,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:38:29.817747",
+    "event_label": "trade_agreement",
+    "confidence": 1.0,
+    "severity_probs": {
+      "mild": 0.349,
+      "moderate": 0.3607,
+      "severe": 0.2055,
+      "extreme": 0.0848
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:38.581139",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:38.610870",
+    "event_label": "sanctions",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1966,
+      "moderate": 0.3175,
+      "severe": 0.3039,
+      "extreme": 0.182
+    },
+    "risk_score": 20.3,
+    "scenario_text": "US imposes semiconductor sanctions on China",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:39.044081",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.8,
+    "scenario_text": "New deadly virus pandemic spreads globally",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:39.483904",
+    "event_label": "natural_disaster",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.2306,
+      "moderate": 0.3329,
+      "severe": 0.2839,
+      "extreme": 0.1527
+    },
+    "risk_score": 29.3,
+    "scenario_text": "Massive earthquake destroys Tokyo",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:39.910831",
+    "event_label": "supply_shock",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3209,
+      "severe": 0.3038,
+      "extreme": 0.1777
+    },
+    "risk_score": 21.5,
+    "scenario_text": "Global semiconductor chip shortage worsens",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:39.934927",
+    "event_label": "political_crisis",
+    "confidence": 0.4891,
+    "severity_probs": {
+      "mild": 0.1833,
+      "moderate": 0.3051,
+      "severe": 0.3125,
+      "extreme": 0.199
+    },
+    "risk_score": 9.3,
+    "scenario_text": "Military coup overthrows Saudi Arabian government",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:39.954949",
+    "event_label": "economic_crisis",
+    "confidence": 0.4969,
+    "severity_probs": {
+      "mild": 0.137,
+      "moderate": 0.2728,
+      "severe": 0.3372,
+      "extreme": 0.253
+    },
+    "risk_score": 32.0,
+    "scenario_text": "Major recession and banking collapse hits US",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:39.974012",
+    "event_label": "cyberattack",
+    "confidence": 0.4803,
+    "severity_probs": {
+      "mild": 0.1878,
+      "moderate": 0.3132,
+      "severe": 0.3088,
+      "extreme": 0.1902
+    },
+    "risk_score": 15.4,
+    "scenario_text": "Massive ransomware attack hits US banking system",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:39.992477",
+    "event_label": "energy_crisis",
+    "confidence": 0.4856,
+    "severity_probs": {
+      "mild": 0.1715,
+      "moderate": 0.2982,
+      "severe": 0.3183,
+      "extreme": 0.2119
+    },
+    "risk_score": 13.3,
+    "scenario_text": "Oil pipeline explosion disrupts Middle East supply",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:40.010054",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:40.028432",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:40.451971",
+    "event_label": "economic_crisis",
+    "confidence": 0.4949,
+    "severity_probs": {
+      "mild": 0.1371,
+      "moderate": 0.2729,
+      "severe": 0.3372,
+      "extreme": 0.2528
+    },
+    "risk_score": 32.3,
+    "scenario_text": "Global banking crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:41.001854",
+    "event_label": "energy_crisis",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1679,
+      "moderate": 0.2962,
+      "severe": 0.3204,
+      "extreme": 0.2156
+    },
+    "risk_score": 13.6,
+    "scenario_text": "Oil crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:41.024367",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:41.045383",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.4,
+    "scenario_text": "Pandemic outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:41.068278",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:41.087249",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign free trade deal",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:41.108609",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:39:41.130220",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.3,
+    "scenario_text": "Global pandemic virus outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:00.251390",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:15.691829",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:23.898811",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:23.924573",
+    "event_label": "sanctions",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1966,
+      "moderate": 0.3175,
+      "severe": 0.3039,
+      "extreme": 0.182
+    },
+    "risk_score": 20.3,
+    "scenario_text": "US imposes semiconductor sanctions on China",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:23.989227",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.8,
+    "scenario_text": "New deadly virus pandemic spreads globally",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.056449",
+    "event_label": "natural_disaster",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.2306,
+      "moderate": 0.3329,
+      "severe": 0.2839,
+      "extreme": 0.1527
+    },
+    "risk_score": 29.3,
+    "scenario_text": "Massive earthquake destroys Tokyo",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.125929",
+    "event_label": "supply_shock",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3209,
+      "severe": 0.3038,
+      "extreme": 0.1777
+    },
+    "risk_score": 21.5,
+    "scenario_text": "Global semiconductor chip shortage worsens",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.174476",
+    "event_label": "political_crisis",
+    "confidence": 0.4891,
+    "severity_probs": {
+      "mild": 0.1833,
+      "moderate": 0.3051,
+      "severe": 0.3125,
+      "extreme": 0.199
+    },
+    "risk_score": 9.3,
+    "scenario_text": "Military coup overthrows Saudi Arabian government",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.196383",
+    "event_label": "economic_crisis",
+    "confidence": 0.4969,
+    "severity_probs": {
+      "mild": 0.137,
+      "moderate": 0.2728,
+      "severe": 0.3372,
+      "extreme": 0.253
+    },
+    "risk_score": 32.0,
+    "scenario_text": "Major recession and banking collapse hits US",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.220632",
+    "event_label": "cyberattack",
+    "confidence": 0.4803,
+    "severity_probs": {
+      "mild": 0.1878,
+      "moderate": 0.3132,
+      "severe": 0.3088,
+      "extreme": 0.1902
+    },
+    "risk_score": 15.4,
+    "scenario_text": "Massive ransomware attack hits US banking system",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.241758",
+    "event_label": "energy_crisis",
+    "confidence": 0.4856,
+    "severity_probs": {
+      "mild": 0.1715,
+      "moderate": 0.2982,
+      "severe": 0.3183,
+      "extreme": 0.2119
+    },
+    "risk_score": 13.3,
+    "scenario_text": "Oil pipeline explosion disrupts Middle East supply",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.259902",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.279525",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.343658",
+    "event_label": "economic_crisis",
+    "confidence": 0.4949,
+    "severity_probs": {
+      "mild": 0.1371,
+      "moderate": 0.2729,
+      "severe": 0.3372,
+      "extreme": 0.2528
+    },
+    "risk_score": 32.3,
+    "scenario_text": "Global banking crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.406406",
+    "event_label": "energy_crisis",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1679,
+      "moderate": 0.2962,
+      "severe": 0.3204,
+      "extreme": 0.2156
+    },
+    "risk_score": 13.6,
+    "scenario_text": "Oil crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.428454",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.450549",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.4,
+    "scenario_text": "Pandemic outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.472957",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.494115",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign free trade deal",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.516195",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:24.538747",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.3,
+    "scenario_text": "Global pandemic virus outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:40.645568",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.9,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:40.716285",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:40.788648",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.5,
+    "scenario_text": "Global pandemic virus outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:56.845294",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:56.880494",
+    "event_label": "sanctions",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1966,
+      "moderate": 0.3175,
+      "severe": 0.3039,
+      "extreme": 0.182
+    },
+    "risk_score": 20.3,
+    "scenario_text": "US imposes semiconductor sanctions on China",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:56.946972",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.8,
+    "scenario_text": "New deadly virus pandemic spreads globally",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.012531",
+    "event_label": "natural_disaster",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.2306,
+      "moderate": 0.3329,
+      "severe": 0.2839,
+      "extreme": 0.1527
+    },
+    "risk_score": 29.3,
+    "scenario_text": "Massive earthquake destroys Tokyo",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.080493",
+    "event_label": "supply_shock",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3209,
+      "severe": 0.3038,
+      "extreme": 0.1777
+    },
+    "risk_score": 21.5,
+    "scenario_text": "Global semiconductor chip shortage worsens",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.107431",
+    "event_label": "political_crisis",
+    "confidence": 0.4891,
+    "severity_probs": {
+      "mild": 0.1833,
+      "moderate": 0.3051,
+      "severe": 0.3125,
+      "extreme": 0.199
+    },
+    "risk_score": 9.3,
+    "scenario_text": "Military coup overthrows Saudi Arabian government",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.127538",
+    "event_label": "economic_crisis",
+    "confidence": 0.4969,
+    "severity_probs": {
+      "mild": 0.137,
+      "moderate": 0.2728,
+      "severe": 0.3372,
+      "extreme": 0.253
+    },
+    "risk_score": 32.0,
+    "scenario_text": "Major recession and banking collapse hits US",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.150895",
+    "event_label": "cyberattack",
+    "confidence": 0.4803,
+    "severity_probs": {
+      "mild": 0.1878,
+      "moderate": 0.3132,
+      "severe": 0.3088,
+      "extreme": 0.1902
+    },
+    "risk_score": 15.4,
+    "scenario_text": "Massive ransomware attack hits US banking system",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.176119",
+    "event_label": "energy_crisis",
+    "confidence": 0.4856,
+    "severity_probs": {
+      "mild": 0.1715,
+      "moderate": 0.2982,
+      "severe": 0.3183,
+      "extreme": 0.2119
+    },
+    "risk_score": 13.3,
+    "scenario_text": "Oil pipeline explosion disrupts Middle East supply",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.199828",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.220815",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.287170",
+    "event_label": "economic_crisis",
+    "confidence": 0.4949,
+    "severity_probs": {
+      "mild": 0.1371,
+      "moderate": 0.2729,
+      "severe": 0.3372,
+      "extreme": 0.2528
+    },
+    "risk_score": 32.3,
+    "scenario_text": "Global banking crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.354452",
+    "event_label": "energy_crisis",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1679,
+      "moderate": 0.2962,
+      "severe": 0.3204,
+      "extreme": 0.2156
+    },
+    "risk_score": 13.6,
+    "scenario_text": "Oil crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.375984",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.398036",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.4,
+    "scenario_text": "Pandemic outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.421568",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.439801",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign free trade deal",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.458099",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:40:57.477163",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.3,
+    "scenario_text": "Global pandemic virus outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.288349",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.321248",
+    "event_label": "sanctions",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1966,
+      "moderate": 0.3175,
+      "severe": 0.3039,
+      "extreme": 0.182
+    },
+    "risk_score": 20.3,
+    "scenario_text": "US imposes semiconductor sanctions on China",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.415813",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.8,
+    "scenario_text": "New deadly virus pandemic spreads globally",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.502867",
+    "event_label": "natural_disaster",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.2306,
+      "moderate": 0.3329,
+      "severe": 0.2839,
+      "extreme": 0.1527
+    },
+    "risk_score": 29.3,
+    "scenario_text": "Massive earthquake destroys Tokyo",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.581722",
+    "event_label": "supply_shock",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1977,
+      "moderate": 0.3209,
+      "severe": 0.3038,
+      "extreme": 0.1777
+    },
+    "risk_score": 21.5,
+    "scenario_text": "Global semiconductor chip shortage worsens",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.606441",
+    "event_label": "political_crisis",
+    "confidence": 0.4891,
+    "severity_probs": {
+      "mild": 0.1833,
+      "moderate": 0.3051,
+      "severe": 0.3125,
+      "extreme": 0.199
+    },
+    "risk_score": 9.3,
+    "scenario_text": "Military coup overthrows Saudi Arabian government",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.628046",
+    "event_label": "economic_crisis",
+    "confidence": 0.4969,
+    "severity_probs": {
+      "mild": 0.137,
+      "moderate": 0.2728,
+      "severe": 0.3372,
+      "extreme": 0.253
+    },
+    "risk_score": 32.0,
+    "scenario_text": "Major recession and banking collapse hits US",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.655178",
+    "event_label": "cyberattack",
+    "confidence": 0.4803,
+    "severity_probs": {
+      "mild": 0.1878,
+      "moderate": 0.3132,
+      "severe": 0.3088,
+      "extreme": 0.1902
+    },
+    "risk_score": 15.4,
+    "scenario_text": "Massive ransomware attack hits US banking system",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.678637",
+    "event_label": "energy_crisis",
+    "confidence": 0.4856,
+    "severity_probs": {
+      "mild": 0.1715,
+      "moderate": 0.2982,
+      "severe": 0.3183,
+      "extreme": 0.2119
+    },
+    "risk_score": 13.3,
+    "scenario_text": "Oil pipeline explosion disrupts Middle East supply",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.699566",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.726898",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.807216",
+    "event_label": "economic_crisis",
+    "confidence": 0.4949,
+    "severity_probs": {
+      "mild": 0.1371,
+      "moderate": 0.2729,
+      "severe": 0.3372,
+      "extreme": 0.2528
+    },
+    "risk_score": 32.3,
+    "scenario_text": "Global banking crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.882135",
+    "event_label": "energy_crisis",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1679,
+      "moderate": 0.2962,
+      "severe": 0.3204,
+      "extreme": 0.2156
+    },
+    "risk_score": 13.6,
+    "scenario_text": "Oil crisis",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.907821",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.931203",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.4,
+    "scenario_text": "Pandemic outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.959720",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.7,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:47.979626",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign free trade deal",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:48.002970",
+    "event_label": "war",
+    "confidence": 0.4717,
+    "severity_probs": {
+      "mild": 0.127,
+      "moderate": 0.2617,
+      "severe": 0.3414,
+      "extreme": 0.2699
+    },
+    "risk_score": 25.6,
+    "scenario_text": "China invades Taiwan",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:41:48.028613",
+    "event_label": "pandemic",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.1136,
+      "moderate": 0.2526,
+      "severe": 0.3496,
+      "extreme": 0.2842
+    },
+    "risk_score": 21.3,
+    "scenario_text": "Global pandemic virus outbreak",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:42:01.504352",
+    "event_label": "war",
+    "confidence": 0.4773,
+    "severity_probs": {
+      "mild": 0.1267,
+      "moderate": 0.2615,
+      "severe": 0.3416,
+      "extreme": 0.2702
+    },
+    "risk_score": 25.9,
+    "scenario_text": "China invades Taiwan with military force",
+    "actual_outcome": null
+  },
+  {
+    "timestamp": "2026-03-21T01:42:01.598401",
+    "event_label": "trade_agreement",
+    "confidence": 0.9,
+    "severity_probs": {
+      "mild": 0.3365,
+      "moderate": 0.3581,
+      "severe": 0.2138,
+      "extreme": 0.0915
+    },
+    "risk_score": 1.0,
+    "scenario_text": "US and EU sign comprehensive free trade agreement",
+    "actual_outcome": null
+  }
+]

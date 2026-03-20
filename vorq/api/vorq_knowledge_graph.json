@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "description": "VORq Probabilistic Causal Knowledge Graph — 10 event types, 8 sectors",
+    "nodes": 22,
+    "edges": 48
+  },
+  "sectors": {
+    "Technology & Semiconductors": {
+      "base_volatility": 0.8,
+      "companies": ["Taiwan Semiconductor (TSMC)", "NVIDIA", "Apple", "ASML"],
+      "dependencies": { "energy": 0.4, "rare_earths": 0.9 }
+    },
+    "Defense & Aerospace": {
+      "base_volatility": 0.5,
+      "companies": ["Lockheed Martin", "Raytheon", "Airbus", "Boeing"],
+      "dependencies": { "semiconductors": 0.7, "metals": 0.6 }
+    },
+    "Automotive & EV": {
+      "base_volatility": 0.6,
+      "companies": ["Tesla", "Toyota", "Volkswagen", "BYD"],
+      "dependencies": { "semiconductors": 0.8, "batteries": 0.9, "metals": 0.5 }
+    },
+    "Energy & Oil": {
+      "base_volatility": 0.7,
+      "companies": ["ExxonMobil", "Saudi Aramco", "Shell", "Chevron"],
+      "dependencies": { "geopolitics": 0.9 }
+    },
+    "Financial Services": {
+      "base_volatility": 0.4,
+      "companies": ["JPMorgan Chase", "Goldman Sachs", "HSBC", "Deutsche Bank"],
+      "dependencies": { "global_economy": 0.9 }
+    },
+    "Agriculture & Food": {
+      "base_volatility": 0.3,
+      "companies": ["Archer Daniels Midland", "Bunge", "Cargill"],
+      "dependencies": { "energy": 0.6, "fertilizer": 0.8 }
+    },
+    "Healthcare & Pharma": {
+      "base_volatility": 0.35,
+      "companies": ["Pfizer", "Johnson & Johnson", "Roche", "Moderna"],
+      "dependencies": { "supply_chains": 0.5, "chemicals": 0.4 }
+    },
+    "Logistics & Shipping": {
+      "base_volatility": 0.55,
+      "companies": ["Maersk", "FedEx", "UPS", "CMA CGM"],
+      "dependencies": { "energy": 0.7, "infrastructure": 0.6 }
+    }
+  },
+  "causal_links": [
+    {
+      "source": "war_taiwan", "target": "Technology & Semiconductors", "impact": -0.85,
+      "mechanism": "Primary fabs & R&D are concentrated in conflict zones — export controls freeze chip supply and IP licensing instantly."
+    },
+    {
+      "source": "war_taiwan", "target": "Defense & Aerospace", "impact": 0.45,
+      "mechanism": "Governments surge procurement; supply chains reorient as escalation unfolds."
+    },
+    {
+      "source": "war_taiwan", "target": "Financial Services", "impact": -0.35,
+      "mechanism": "Capital flight from Asia-Pacific, currency instability, sovereign credit watch triggered."
+    },
+    {
+      "source": "war_taiwan", "target": "Logistics & Shipping", "impact": -0.55,
+      "mechanism": "Taiwan Strait closure disrupts major global shipping lanes; freight rates spike."
+    },
+    {
+      "source": "war_general", "target": "Defense & Aerospace", "impact": 0.40,
+      "mechanism": "Military spending surges across allied nations; defense contractors see immediate order backlogs."
+    },
+    {
+      "source": "war_general", "target": "Energy & Oil", "impact": -0.30,
+      "mechanism": "Supply route disruptions and sanctions pressure global energy markets."
+    },
+    {
+      "source": "war_general", "target": "Financial Services", "impact": -0.40,
+      "mechanism": "Risk-off sentiment drives capital flight; insurance and reinsurance costs spike."
+    },
+    {
+      "source": "war_india_china", "target": "Technology & Semiconductors", "impact": -0.50,
+      "mechanism": "Supply chain decoupling between two major markets disrupts component flows."
+    },
+    {
+      "source": "war_india_china", "target": "Defense & Aerospace", "impact": 0.35,
+      "mechanism": "Both nations escalate defense procurement; allied nations increase military aid."
+    },
+    {
+      "source": "war_india_china", "target": "Logistics & Shipping", "impact": -0.40,
+      "mechanism": "Indian Ocean and South China Sea shipping lanes face elevated risk."
+    },
+    {
+      "source": "war_russia_ukraine", "target": "Energy & Oil", "impact": -0.60,
+      "mechanism": "European gas supplies severely disrupted; pipeline infrastructure at risk."
+    },
+    {
+      "source": "war_russia_ukraine", "target": "Agriculture & Food", "impact": -0.55,
+      "mechanism": "Black Sea grain corridor shut down; global wheat and fertilizer prices spike."
+    },
+    {
+      "source": "war_russia_ukraine", "target": "Defense & Aerospace", "impact": 0.50,
+      "mechanism": "NATO nations dramatically increase defense spending and arms deliveries."
+    },
+    {
+      "source": "sanctions_china", "target": "Technology & Semiconductors", "impact": -0.60,
+      "mechanism": "Trade bans restrict rare earth exports and block advanced chip designs from entering mainland markets."
+    },
+    {
+      "source": "sanctions_china", "target": "Automotive & EV", "impact": -0.40,
+      "mechanism": "Battery supply chains heavily reliant on Chinese processing face immediate margin pressure."
+    },
+    {
+      "source": "sanctions_china", "target": "Logistics & Shipping", "impact": -0.35,
+      "mechanism": "Trade volume contraction as tariffs reshape bilateral commerce patterns."
+    },
+    {
+      "source": "sanctions_russia", "target": "Energy & Oil", "impact": 0.45,
+      "mechanism": "Russian oil embargo tightens global supply; spot prices surge on constrained output."
+    },
+    {
+      "source": "sanctions_russia", "target": "Agriculture & Food", "impact": -0.40,
+      "mechanism": "Fertilizer export restrictions cascade into higher food production costs globally."
+    },
+    {
+      "source": "sanctions_russia", "target": "Financial Services", "impact": -0.30,
+      "mechanism": "SWIFT disconnections, asset freezes create counterparty risk across European banking."
+    },
+    {
+      "source": "sanctions_iran", "target": "Energy & Oil", "impact": 0.35,
+      "mechanism": "Iranian crude removed from market tightens OPEC+ supply balance."
+    },
+    {
+      "source": "oil_shock_mideast", "target": "Energy & Oil", "impact": 0.80,
+      "mechanism": "Shipping lanes and sanctions combine to disrupt global crude flows and refinery margins, spiking prices."
+    },
+    {
+      "source": "oil_shock_mideast", "target": "Agriculture & Food", "impact": -0.50,
+      "mechanism": "Spiking energy costs immediately translate to higher fertilizer prices and transport costs."
+    },
+    {
+      "source": "oil_shock_mideast", "target": "Logistics & Shipping", "impact": -0.45,
+      "mechanism": "Bunker fuel costs surge; carriers impose emergency fuel surcharges across all routes."
+    },
+    {
+      "source": "oil_shock_mideast", "target": "Automotive & EV", "impact": 0.20,
+      "mechanism": "High fuel prices accelerate EV adoption; but ICE-dependent manufacturers suffer."
+    },
+    {
+      "source": "pandemic_global", "target": "Financial Services", "impact": -0.65,
+      "mechanism": "Capital flight, currency volatility, sovereign downgrades hit bank exposure hard."
+    },
+    {
+      "source": "pandemic_global", "target": "Healthcare & Pharma", "impact": 0.55,
+      "mechanism": "Vaccine and therapeutic demand surges; pharma revenues spike on emergency authorizations."
+    },
+    {
+      "source": "pandemic_global", "target": "Logistics & Shipping", "impact": -0.40,
+      "mechanism": "Port closures, labor shortages, and quarantine measures create massive backlogs."
+    },
+    {
+      "source": "pandemic_global", "target": "Agriculture & Food", "impact": -0.30,
+      "mechanism": "Labor shortages at harvesting and processing plants; food distribution networks strained."
+    },
+    {
+      "source": "natural_disaster", "target": "Agriculture & Food", "impact": -0.65,
+      "mechanism": "Crop destruction, farmland flooding, and harvest disruptions cause food price spikes."
+    },
+    {
+      "source": "natural_disaster", "target": "Logistics & Shipping", "impact": -0.50,
+      "mechanism": "Port damage, road/rail destruction halt supply chains for weeks in affected regions."
+    },
+    {
+      "source": "natural_disaster", "target": "Financial Services", "impact": -0.25,
+      "mechanism": "Insurance claims surge; rebuilding costs strain government budgets and credit ratings."
+    },
+    {
+      "source": "supply_shock", "target": "Technology & Semiconductors", "impact": -0.55,
+      "mechanism": "Component shortages cascade across electronics manufacturing; lead times extend to months."
+    },
+    {
+      "source": "supply_shock", "target": "Automotive & EV", "impact": -0.50,
+      "mechanism": "Just-in-time manufacturing collapses as critical component inventories dry up."
+    },
+    {
+      "source": "supply_shock", "target": "Logistics & Shipping", "impact": -0.40,
+      "mechanism": "Container shortages and port congestion amplify the disruption across all trade routes."
+    },
+    {
+      "source": "political_crisis", "target": "Financial Services", "impact": -0.50,
+      "mechanism": "Political uncertainty triggers capital outflows, currency depreciation, and bond market selloffs."
+    },
+    {
+      "source": "political_crisis", "target": "Energy & Oil", "impact": -0.30,
+      "mechanism": "Regime instability in energy-producing nations creates supply uncertainty."
+    },
+    {
+      "source": "political_crisis", "target": "Defense & Aerospace", "impact": 0.25,
+      "mechanism": "Neighboring states increase military readiness and procurement in response to instability."
+    },
+    {
+      "source": "economic_crisis", "target": "Financial Services", "impact": -0.75,
+      "mechanism": "Bank runs, credit freezes, and systemic deleveraging trigger cascading failures."
+    },
+    {
+      "source": "economic_crisis", "target": "Technology & Semiconductors", "impact": -0.35,
+      "mechanism": "Enterprise and consumer spending cuts reduce chip demand; capex freezes hit foundries."
+    },
+    {
+      "source": "economic_crisis", "target": "Automotive & EV", "impact": -0.45,
+      "mechanism": "Consumer credit tightening and falling demand slash vehicle sales across all segments."
+    },
+    {
+      "source": "cyberattack", "target": "Technology & Semiconductors", "impact": -0.40,
+      "mechanism": "IP theft, production halt, and trust erosion across digital infrastructure."
+    },
+    {
+      "source": "cyberattack", "target": "Financial Services", "impact": -0.55,
+      "mechanism": "Banking system breaches freeze transactions; regulatory fines and remediation costs spike."
+    },
+    {
+      "source": "cyberattack", "target": "Logistics & Shipping", "impact": -0.35,
+      "mechanism": "Ransomware attacks on port management and logistics systems cause days-long operational halt."
+    },
+    {
+      "source": "energy_crisis_europe", "target": "Energy & Oil", "impact": 0.60,
+      "mechanism": "European gas supply crunch sends prices to record levels; LNG spot market surges."
+    },
+    {
+      "source": "energy_crisis_europe", "target": "Agriculture & Food", "impact": -0.40,
+      "mechanism": "Gas-based fertilizer production halts; food processing energy costs become unsustainable."
+    },
+    {
+      "source": "energy_crisis_europe", "target": "Automotive & EV", "impact": -0.30,
+      "mechanism": "European factory output curtailed as gas rationing hits industrial consumers first."
+    },
+    {
+      "source": "trade_agreement", "target": "Technology & Semiconductors", "impact": 0.30,
+      "mechanism": "Reduced tariffs and IP protections stimulate cross-border R&D and component trade."
+    },
+    {
+      "source": "trade_agreement", "target": "Automotive & EV", "impact": 0.25,
+      "mechanism": "Harmonized standards and lower duties open new markets for vehicle exports."
+    },
+    {
+      "source": "trade_agreement", "target": "Agriculture & Food", "impact": 0.20,
+      "mechanism": "Removal of agricultural tariffs increases export volumes and stabilizes prices."
+    },
+    {
+      "source": "Technology & Semiconductors", "target": "Automotive & EV", "impact": 0.7,
+      "mechanism": "EV battery materials and micro-chip shortages cascade through production lines."
+    },
+    {
+      "source": "Energy & Oil", "target": "Logistics & Shipping", "impact": 0.5,
+      "mechanism": "Fuel cost changes directly impact shipping margins and freight rates."
+    },
+    {
+      "source": "Financial Services", "target": "Technology & Semiconductors", "impact": 0.4,
+      "mechanism": "Credit tightening reduces capex available for fab construction and R&D."
+    }
+  ],
+  "mitigations": {
+    "Technology & Semiconductors": [
+      "Accelerate nearshoring of critical fab infrastructure (CHIPS Act funding).",
+      "Stockpile legacy node chips for 18-month buffering.",
+      "Diversify rare earth mineral sourcing across multiple continents."
+    ],
+    "Automotive & EV": [
+      "Redesign silicon architecture to rely on widely available analog chips.",
+      "Diversify battery mineral refining away from single-point bottlenecks.",
+      "Build strategic component reserves for 90-day production continuity."
+    ],
+    "Defense & Aerospace": [
+      "Lock in long-term critical mineral contracts with allied nations.",
+      "Expedite government defense procurement approvals.",
+      "Establish parallel supply chains in allied manufacturing hubs."
+    ],
+    "Energy & Oil": [
+      "Hedge spot market exposure with 24-month futures.",
+      "Reroute strategic petroleum reserves to critical infrastructure.",
+      "Accelerate renewable energy capacity to reduce fossil fuel dependence."
+    ],
+    "Financial Services": [
+      "Increase capital buffers and stress-test exposure to geopolitical shocks.",
+      "Diversify counterparty exposure across non-correlated markets.",
+      "Implement real-time sanctions screening and compliance automation."
+    ],
+    "Agriculture & Food": [
+      "Establish strategic grain reserves at national level.",
+      "Diversify fertilizer suppliers across multiple producing nations.",
+      "Invest in precision agriculture to reduce input dependency."
+    ],
+    "Healthcare & Pharma": [
+      "Build domestic API (active pharmaceutical ingredient) manufacturing capacity.",
+      "Maintain strategic medical supply stockpiles for 6-month surge capacity.",
+      "Diversify clinical trial sites across multiple geographies."
+    ],
+    "Logistics & Shipping": [
+      "Develop alternative shipping corridor contingency plans.",
+      "Invest in nearshoring logistics to reduce long-haul dependency.",
+      "Deploy AI-based supply chain visibility platforms for real-time rerouting."
+    ]
+  }
+}
