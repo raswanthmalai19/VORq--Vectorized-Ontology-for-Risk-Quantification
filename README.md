@@ -376,3 +376,4 @@ For issues, questions, or contributions:
 ---
 
 **Last Updated:** March 2026 | **Status:** Production Ready ✅
+# VORq--Vectorized-Ontology-for-Risk-Quantification
