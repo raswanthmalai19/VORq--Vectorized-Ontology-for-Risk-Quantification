@@ -44,53 +44,12 @@ streamlit run vorq/ui/app.py --server.port 8501
 
 ### Input
 ```
-"USA president death"
+"Automotive sector during a geopolitical shock?"
 "Semiconductor export ban to China"
 "Major pandemic outbreak in India"
 ```
 
-### Analysis Pipeline
-1. **Event Classification** (DistilBERT) → 10 event types
-2. **Bayesian Scenario Generation** → Multi-branch probability tree
-3. **Causal Propagation** → 3-hop shock propagation through sectors
-4. **Monte Carlo Simulation** → Student-t distribution, fat tails, volatility clustering
-5. **Risk Quantification** → VaR, CVaR, scenario branches
 
-### Output Example
-```json
-{
-  "event": {
-    "type": "political_crisis",
-    "confidence": 0.72,
-    "classification_method": "distilbert"
-  },
-  "simulation": {
-    "risk_level": "HIGH",
-    "risk_score": 52,
-    "company_impacts": [
-      {"name": "JPMorgan Chase", "exposure": -35.2},
-      {"name": "HSBC", "exposure": -25.1},
-      {"name": "Tesla", "exposure": -27.3}
-    ]
-  },
-  "explanation": {
-    "confidence_assessment": {
-      "overall": 72.0,
-      "level": "high",
-      "justification": "DistilBERT-based classification with 72% confidence..."
-    }
-  },
-  "v3": {
-    "causal_analysis": {
-      "calibration": {
-        "impact_bounds": "[-80%, +30%]",
-        "shock_intensity": 0.45,
-        "historical_calibration_active": true
-      }
-    }
-  }
-}
-```
 
 ---
 
